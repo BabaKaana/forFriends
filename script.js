@@ -9,12 +9,10 @@ function msg(){
 
 function surprise (){
     h1.innerText = "Here's a chumi for you! 😘";
-    h1.style.fontSize = "95px";
     btn.style.display = "none";
 }
 
 btn.addEventListener("click", surprise)
 
 
-setTimeout(msg, 5000)
-
+setTimeout(msg, 4000)
