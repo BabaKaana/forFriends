@@ -26,6 +26,7 @@ button {
 @media (max-width: 400px){
     .later{
         font-size: 80px;
+        margin: 0;
         padding: 10px 20px;
     }
 }
