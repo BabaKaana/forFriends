@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.later{
+    font-size: 150px;
+    color: purple;
+}
+
+button {
+    background-color: rgb(19, 18, 18);
+    color: linen;
+    font-size: 105%;
+    padding: 0.8rem 1.4rem;
+    border: none;
+    border-radius: 10px;
+    display: none;
+}
+
+@media (max-width: 400px){
+    .later{
+        font-size: 90px;
+        margin: 0;
+        padding: 20px;
+    }
+}
